@@ -88,6 +88,15 @@ Random concept baselines were used for statistical comparison.
 |--------|---------------------|
 | Accuracy | 98% |
 | ROC-AUC | 0.998 |
+<img width="2100" height="2100" alt="roc_curve_comparison" src="https://github.com/user-attachments/assets/c1769632-8355-4022-b033-dc91afea7b31" />
+
+### Grad-CAM Results
+#### Normal
+<img width="3399" height="1204" alt="n_processed_1806" src="https://github.com/user-attachments/assets/2c875ae4-9daf-4a34-a457-1c5ed26394ca" />
+
+#### Pneumonia
+
+<img width="3399" height="1204" alt="p_processed_406" src="https://github.com/user-attachments/assets/5e2b2fb0-f502-49c8-b168-adfeef340939" />
 
 ### TCAV Results
 
@@ -99,7 +108,7 @@ Random concept baselines were used for statistical comparison.
 
 Statistical significance was evaluated using two-sided Welch's t-tests
 with a significance threshold of p < 0.01.
-
+<img width="1470" height="1469" alt="tcav_summary" src="https://github.com/user-attachments/assets/e308906d-a825-4f45-b4a9-28f7016e8e08" />
 ## Explainability
 
 Grad-CAM provides a spatial explanation by highlighting image regions
